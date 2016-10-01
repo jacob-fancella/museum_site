@@ -1,0 +1,128 @@
+/*Global style sheet for the museum of natural history website.*/
+
+
+body {
+	background-color: #14272E;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+	width: 800px;
+	margin: 0 auto;
+}
+
+#header {
+	height: 200px;
+	background-color: #536C56;
+}
+
+
+#main_nav {
+	position: absolute; /*allows div to float and be positioned above other elements*/
+	margin-left: 250px;
+	margin-top: -60px;
+	border: none;
+}
+
+#main_nav ul {
+	list-style-type: none;
+	border: none;
+}
+#main_nav li {
+	float: left; /* Allows list items to line up horizontally.*/
+	padding: 0 15px 0 15px;
+	border: none;
+}
+
+#main_nav a {
+	color: white;
+	text-decoration: none;
+	border: none;
+}
+
+#main_nav a:hover {
+	border-bottom: 2px solid white;
+}
+
+#banner {
+	
+	padding-top:15px;
+	padding-left:10px;
+	padding-bottom:12px;
+}
+
+#left_side_bar {
+	width:200px;
+	float: left;
+	font-size:11px;
+	background-color: #00688F;
+	border: none;
+	color: white;
+	margin:0 20px;
+	padding: 0 10px;
+	border-radius: 15px; /*rounded borders*/
+	
+}
+
+#left_side_bar h2 {
+	font-size: 20px;
+}
+
+#left_side_bar h3 {
+	font-size: 15px;
+}
+
+#main_content {
+	margin-top: -21px;
+	width: 520px;
+	float:left;
+	color: white;
+}
+
+#main_content img {
+	float:left;
+	padding: 0 15px 0 0;
+	
+}
+
+#main_content h1 {
+		color:#399C99;
+		border-bottom: 2px solid #366871;
+		text-align: center;
+		font-size: 30px;
+}
+#main_content p {
+	font-size:15.5px;
+}
+
+#footer {
+	height:50px;
+	clear:both; /*extends content bellow floated items*/
+	
+}
+
+#footer {
+	padding-top: 5px;
+	color: #366871;
+}
+
+#footer ul {
+	list-style-type:none;
+	margin-left: 120px;
+}
+
+#footer li {
+	float: left;
+	padding: 0 15px;
+	border-top: 2px solid;
+}
+
+#footer a {
+	color: #366871;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	background-color: #536C56;
+	color:white;
+}
